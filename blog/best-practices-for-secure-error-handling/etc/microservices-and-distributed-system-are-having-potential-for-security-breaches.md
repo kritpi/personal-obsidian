@@ -1,0 +1,16 @@
+Go services are normally run in distributed environments (APIs, cloud services, microservices) which leading to a significant potential for ==security breaches==
+- **Expanded attacking surfaces** (many services = many endpoints, some endpoint could be exposed)
+- **Network vulnerability** (across services communication)
+	- Man in the middle attacks
+	- Request spoofing
+	- Service impersonation
+- **Authentication & Authorization** (each service need access control)
+	- Over-trusting internal services
+	- Token leaked between services
+- **Misconfiguration**
+	- Exposing secrets, env, deployment config
+	- Ports open, debugging endpoint
+	- Incorrect CORS, Firewall rules
+- **Data Storing** (more place where sensitive data is stored)
+- **Dependency & Supply Chain Attack** 
+	- Effect multiple services if shared dependencies are vulnerable

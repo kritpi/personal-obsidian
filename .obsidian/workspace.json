@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "93b5cea1bbf0144d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7492df1a3b234384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0240ab760df3fc7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f99127196594b59",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6c8f535ccfd3a9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e15b0e2d0853e3a0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "15718487df63a289",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "87e54c90ee5d5cc2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5
+  },
+  "right": {
+    "id": "6c5a071e80479738",
+    "type": "split",
+    "children": [
+      {
+        "id": "511916fdbef7058e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "797f16b3293e6e12",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "0771762b97f9ba3d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2026-03-26.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-03-26"
+            }
+          },
+          {
+            "id": "e5ffae5abe805abe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "845fc87f311ee7ef",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9f39b79546defe4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2026-03-26.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-03-26"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e0240ab760df3fc7",
+  "lastOpenFiles": [
+    "blog/best-practices-for-secure-error-handling/etc/Error-creation-and-wrapping.md",
+    "blog/best-practices-for-secure-error-handling/etc/microservices-and-distributed-system-are-having-potential-for-security-breaches.md",
+    "blog/best-practices-for-secure-error-handling/etc",
+    "books/designing-data-intensive-application/etc/Operational Systems(OLTP, OLAP).md",
+    "books/designing-data-intensive-application/etc",
+    "books/system-engineering-for-agentic-application/etc",
+    "books/designing-data-intensive-application/attatchments/etl-diagram.png",
+    "books/designing-data-intensive-application/attatchments/Designing Data-Intensive Applications 2nd Edition Martin Kleppmann Chris Riccomini z-librarysk 1libsk z-libsk.pdf",
+    "books/designing-data-intensive-application/attatchments",
+    "books/system-engineering-for-agentic-application/attatchments",
+    "books/designing-data-intensive-application/etc./Operational Systems(OLTP, OLAP).md",
+    "books/designing-data-intensive-application/etc.",
+    "books/designing-data-intensive-application/chapter/CHAPTER1-Trade-offs-in-data-systems-architecture.md",
+    "books/designing-data-intensive-application/chapter",
+    "books/thinking-in-distributed-system/Attatchments/Thinking in Distributed Systems.pdf",
+    "books/thinking-in-distributed-system/Attatchments",
+    "Operational.md",
+    "books/designing-data-intensive-application/Operational Systems(OLTP, OLAP).md",
+    "Untitled.canvas",
+    "Clippings234/เกิด Memory Leak ในระบบ แก้ปัญหาอย่างไรดี? (Golang).md",
+    "Clippings/Best Practices for Secure Error Handling in Go.md",
+    "Clippings/Untitled.md",
+    "books/designing-data-intensive-application/CHAPTER1-Trade-offs-in-data-systems-architecture.md",
+    "books/designing-data-intensive-application/Attatchments/etl-diagram.png",
+    "Attachments/Screenshot 2569-04-03 at 5.06.17 PM.png",
+    "books/designing-data-intensive-application/properties/Delta400-Push1-1 copy.jpg",
+    "blog/best-practices-for-secure-error-handling/INIT.md",
+    "blog/best-practices-for-secure-error-handling/microservices-and-distributed-system-are-having-potential-for-security-breaches.md",
+    "GoPractices.md",
+    "blog/best-practices-for-secure-error-handling/Error-creation-and-wrapping.md",
+    "books/system-engineering-for-agentic-application/INIT.md",
+    "personal-web/Ideas.md",
+    "personal-things/project-ideas.md",
+    "books/thinking-in-distributed-system/INIT.md",
+    "[[.md",
+    "blog/Why microservices/distributed system are increasing an attacking surfaces.md",
+    "books/designing-data-intensive-application/INIT.md",
+    "personal-things/ThingsIWantToDo.md",
+    "claude101/Claude Is.md",
+    "claude101/How to talk with Claude.md",
+    "2026-03-26.md"
+  ]
+}
