@@ -4,17 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "7492df1a3b234384",
+        "id": "3126768ac54d8074",
         "type": "tabs",
         "children": [
           {
-            "id": "e0240ab760df3fc7",
+            "id": "6272868a61b5268a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "pdf",
+              "state": {
+                "file": "books/designing-data-intensive-application/source/Designing Data-Intensive Applications 2nd Edition Martin Kleppmann Chris Riccomini z-librarysk 1libsk z-libsk.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Designing Data-Intensive Applications 2nd Edition Martin Kleppmann Chris Riccomini z-librarysk 1libsk z-libsk"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4cd85b48f8c91e39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5d443bf492769d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/CoffeeTracker/Requirements.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Requirements"
+            }
+          },
+          {
+            "id": "eecb6c439b6b9f0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/designing-data-intensive-application/etc/Data Systems, Law, and Society.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Systems, Law, and Society"
             }
           }
         ]
@@ -49,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#distributed-systems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 380.5
   },
   "right": {
     "id": "6c5a071e80479738",
@@ -90,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "project/CoffeeTracker/Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Requirements"
             }
           },
           {
@@ -178,48 +215,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "e0240ab760df3fc7",
+  "active": "e5d443bf492769d7",
   "lastOpenFiles": [
-    "blog/best-practices-for-secure-error-handling/etc/Error-creation-and-wrapping.md",
-    "blog/best-practices-for-secure-error-handling/etc/microservices-and-distributed-system-are-having-potential-for-security-breaches.md",
-    "blog/best-practices-for-secure-error-handling/etc",
-    "books/designing-data-intensive-application/etc/Operational Systems(OLTP, OLAP).md",
-    "books/designing-data-intensive-application/etc",
-    "books/system-engineering-for-agentic-application/etc",
-    "books/designing-data-intensive-application/attatchments/etl-diagram.png",
-    "books/designing-data-intensive-application/attatchments/Designing Data-Intensive Applications 2nd Edition Martin Kleppmann Chris Riccomini z-librarysk 1libsk z-libsk.pdf",
-    "books/designing-data-intensive-application/attatchments",
-    "books/system-engineering-for-agentic-application/attatchments",
-    "books/designing-data-intensive-application/etc./Operational Systems(OLTP, OLAP).md",
-    "books/designing-data-intensive-application/etc.",
+    "project/StockFolio/Requirements.md",
+    "project/CoffeeTracker/Requirements.md",
+    "project/CoffeeTracker",
+    "project/PaceMeet/Requirements.md",
     "books/designing-data-intensive-application/chapter/CHAPTER1-Trade-offs-in-data-systems-architecture.md",
-    "books/designing-data-intensive-application/chapter",
-    "books/thinking-in-distributed-system/Attatchments/Thinking in Distributed Systems.pdf",
-    "books/thinking-in-distributed-system/Attatchments",
-    "Operational.md",
-    "books/designing-data-intensive-application/Operational Systems(OLTP, OLAP).md",
+    "books/designing-data-intensive-application/etc/Data Systems, Law, and Society.md",
+    "books/designing-data-intensive-application/etc/Cloud Computing Versus Supercomputing.md",
+    "books/designing-data-intensive-application/source/Designing Data-Intensive Applications 2nd Edition Martin Kleppmann Chris Riccomini z-librarysk 1libsk z-libsk.pdf",
+    "project/PaceMeet",
+    "Attachments/Screenshot 2569-04-20 at 10.10.34 AM.png",
+    "Attachments/Screenshot 2569-04-20 at 10.10.17 AM.png",
+    "Attachments",
+    "personal/web/Ideas.md",
+    "project/StockFolio",
+    "project",
+    "books/designing-data-intensive-application/etc/Microservices and Serverless.md",
+    "books/thinking-in-distributed-system/INIT.md",
+    "books/designing-data-intensive-application/etc/Why a shared database is not effective in microservices.md",
+    "books/designing-data-intensive-application/etc/Operational Systems(OLTP, OLAP).md",
+    "books/designing-data-intensive-application/Designing Data-Intensive Applications.md",
+    "blog/best-practices-for-secure-error-handling/INIT.md",
+    "blog/best-practices-for-secure-error-handling/Error-creation-and-wrapping.md",
     "Untitled.canvas",
-    "Clippings234/เกิด Memory Leak ในระบบ แก้ปัญหาอย่างไรดี? (Golang).md",
-    "Clippings/Best Practices for Secure Error Handling in Go.md",
-    "Clippings/Untitled.md",
-    "books/designing-data-intensive-application/CHAPTER1-Trade-offs-in-data-systems-architecture.md",
+    "Untitled.base",
+    "2026-04-18.md",
+    "Untitled 1.canvas",
+    "books/this-book-could-fix-your-life/This book could FIX your life.md",
+    "blog/best-practices-for-secure-error-handling/etc/microservices-and-distributed-system-are-having-potential-for-security-breaches.md",
+    "personal",
+    "books/designing-data-intensive-application/etc/Distributed Versus Single-Node Systems.md",
+    "books/designing-data-intensive-application/etc/Cloud Versus Self-Hosting.md",
+    "books/system-engineering-for-agentic-application/INIT.md",
+    "microservices-and-distributed-system-are-having-potential-for-security-breaches..md",
+    "personal/things/15 Questions of myself in 2026.md",
+    "personal/things/ThingsIWantToDo.md",
+    "books/this-book-could-fix-your-life/chapter/How not to worry.md",
+    "books/this-book-could-fix-your-life/chapter/Chapter1-How not to worry.md",
+    "books/this-book-could-fix-your-life/chapter",
+    "books/this-book-could-fix-your-life",
+    "books/designing-data-intensive-application/chapter/CHAPTER2.md",
+    "books/designing-data-intensive-application/attatchments/etl-diagram.png",
+    "books/designing-data-intensive-application/human/attatchments/etl-diagram.png",
+    "books/designing-data-intensive-application/ai/attatchments/etl-diagram.png",
     "books/designing-data-intensive-application/Attatchments/etl-diagram.png",
     "Attachments/Screenshot 2569-04-03 at 5.06.17 PM.png",
-    "books/designing-data-intensive-application/properties/Delta400-Push1-1 copy.jpg",
-    "blog/best-practices-for-secure-error-handling/INIT.md",
-    "blog/best-practices-for-secure-error-handling/microservices-and-distributed-system-are-having-potential-for-security-breaches.md",
-    "GoPractices.md",
-    "blog/best-practices-for-secure-error-handling/Error-creation-and-wrapping.md",
-    "books/system-engineering-for-agentic-application/INIT.md",
-    "personal-web/Ideas.md",
-    "personal-things/project-ideas.md",
-    "books/thinking-in-distributed-system/INIT.md",
-    "[[.md",
-    "blog/Why microservices/distributed system are increasing an attacking surfaces.md",
-    "books/designing-data-intensive-application/INIT.md",
-    "personal-things/ThingsIWantToDo.md",
-    "claude101/Claude Is.md",
-    "claude101/How to talk with Claude.md",
-    "2026-03-26.md"
+    "books/designing-data-intensive-application/properties/Delta400-Push1-1 copy.jpg"
   ]
 }

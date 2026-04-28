@@ -1,4 +1,10 @@
 {
   "theme": "moonstone",
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "book-summary"
+  ],
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": ""
 }
