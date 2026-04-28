@@ -1,3 +1,10 @@
+---
+title: Designing Data-Intensive Applications
+tags:
+  - data-systems
+aliases:
+  - DDIA Notes
+---
 ### What this book is all about?
 
 How to design **data-intensive systems**
@@ -14,5 +21,7 @@ How to design **data-intensive systems**
 - How to make a **decision**
 - Understand **how** and why **they** work
 
-#### [[CHAPTER1-Trade-offs-in-data-systems-architecture]] 
+### Chapter
+[[CHAPTER1-Trade-offs-in-data-systems-architecture]]
+[[CHAPTER2]]
 

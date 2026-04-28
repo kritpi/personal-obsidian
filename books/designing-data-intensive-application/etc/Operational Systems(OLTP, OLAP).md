@@ -1,3 +1,11 @@
+---
+title: OLTP, OLAP
+tags:
+  - database
+aliases:
+  - DDIA Notes
+---
+
 ***Operational Systems***
 - Served external users
 - Read, stored, process based on users action
@@ -33,6 +41,32 @@ They stop using OLTP systems for analytics purpose, and run analytics on separat
 ***extract-transform-load (ETL)***
 - Extracted data from OLTP (periodic dump, continuous stream)
 - Cleaned up, reformat (analysis-friendly schema)
-- Loaded into data warehouse
-	![[etl-diagram.png]]
-	
+	- Loaded into data warehouse
+		![[etl-diagram.png]]
+
+**HTAP** ***(hybrid transactional/analytical processing)*** 
+- Single system
+- Remove ETL system between OLTP and analytics system
+- Does not replace ==**Data Warehouse**==
+- Good use when
+	- Perform large analytical queries
+	- Read/Write individual records
+
+**Data Warehouse** to **Data Lake**
+- Usage
+	- ==Data Warehouse== use ***relational*** data model (SQL)
+	- ==Data Lake== use specialized (***BI***) software
+- Transforming data into analytical forms
+	- training ML model (transform database table into *features*(vector, matrix) )
+	- use NLP on text data (natural languages) to extract structured info
+- Using Data Lake is more flexible
+
+**Systems of Record and Derived Data**
+*==Systems of record==*
+- Source of truth
+- Data stored **once and only once**
+*==Derived data systems==* - essential for read performance (data combined from multiple sources) 
+- Taking data from another system
+- Transforming / processing
+- Can be replicate
+- eg. cache, dataset
