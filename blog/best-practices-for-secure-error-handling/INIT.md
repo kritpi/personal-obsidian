@@ -1,3 +1,9 @@
+---
+title: Best Practices for Secure Error Handling in Go
+tags:
+  - go
+---
+
 #### [Best Practices for Secure Error Handling in Go][https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/]
 
 **Error in Go** is **Value**, not **Exception**
