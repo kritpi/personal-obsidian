@@ -1,7 +1,11 @@
 ---
+title: Distributed Versus Single-Node Systems
 tags:
   - distributed-system
+  - microservices
 ---
+# Distributed Versus Single-Node Systems
+
 ***distributed system***
 	system that involves several machines (==node==) communicating via network
 
@@ -43,3 +47,7 @@ Each API call traverses between each services
 
 **TL;DR** 
 	perform task on single machine is often simpler and cheaper than distributed system
+
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

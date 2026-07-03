@@ -1,8 +1,9 @@
 ---
+title: Data Systems, Law, and Society
 tags:
-  - data-systems
+  - system-design
 ---
-**Data Systems, Law, and Society**
+# Data Systems, Law, and Society
 - Data systems are not shaped only by technical goals; they also affect the people and institutions that rely on them.
 - The chapter argues that engineers have a responsibility to society, not just to the business that pays for the system.
 - Privacy law such as the GDPR gives people stronger control over personal data, including consent, access, and deletion rights.
@@ -18,3 +19,7 @@ tags:
 
 **TL;DR**
 - Build systems that respect privacy, limit collection, support deletion, and treat legal and social consequences as part of the design.
+
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

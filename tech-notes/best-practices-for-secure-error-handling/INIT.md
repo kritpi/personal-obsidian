@@ -4,7 +4,9 @@ tags:
   - go
 ---
 
-#### [Best Practices for Secure Error Handling in Go][https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/]
+# Best Practices for Secure Error Handling in Go
+
+[Source](https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/)
 
 **Error in Go** is **Value**, not **Exception**
 - Value - expected result
@@ -27,10 +29,8 @@ try {
 
 >**Error values** in **Go** can be passed around (inspect, compose) like other value could causing **security issues**
 
-#### [[microservices-and-distributed-system-are-having-potential-for-security-breaches]]
+#### [[microservices-and-distributed-system-are-having-potential-for-security-breaches|Microservices and Distributed Systems — Security Risks]]
 
 Go **errors** leak internal information
 - The error-handling `if err != nil {return err}` have some vulnerabilities
 - paths, SQL queries, credential, stack traces
-
-#### [[Error-creation-and-wrapping]]

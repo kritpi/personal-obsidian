@@ -1,8 +1,11 @@
 ---
+title: Microservices and Serverless
 tags:
   - distributed-system
   - microservices
 ---
+# Microservices and Serverless
+
 **common way of distributing system**
 - multiple machines
 - client requests to servers
@@ -28,7 +31,7 @@ tags:
 		- hardware resources (to match the load)
 		- logging, monitoring, health check, alerting
 		
-Read more: [[Why a shared database is not effective in microservices]]
+Read more: [[why-a-shared-database-is-not-effective-in-microservices|Why a Shared Database Is Not Effective in Microservices]]
 
 **Serverless** *(function as a service)* is another spproach to deploying services
 - infrastructure management by cloud vendor
@@ -37,3 +40,6 @@ Read more: [[Why a shared database is not effective in microservices]]
 **Trade-offs**
 - might have a slow cold start times (first invoked)
 - autoscale services = autoscale bills
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

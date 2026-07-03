@@ -7,60 +7,43 @@ aliases:
 ---
 # Trade-offs in Data Systems Architecture
 
-**Single Machine**
-- Small data
-- Easy to deal with
+## Overview
+Data-intensive applications are shaped by trade-offs.
 
-**Distributed**
-- Complex
-- Multiple storage, processing
-- Highly available
-- Parallel, Concurrency
+- Small systems can often run on a single machine
+  - simpler to operate
+  - easier to reason about
+- Larger systems usually need distribution
+  - more storage and processing capacity
+  - higher availability
+  - parallelism and concurrency
 
-**Application Needs**
- - Store data ***(databases)***
- - Fast lookup for expensive operation ***(caches)***
- - Search data by keywords ***(search indexes)***
- - Handle events ASAP ***(stream processing)***
- - Large amount of data ***(batch processing)***
+## Application Needs
+Different system capabilities support different needs.
 
-**Challenges**
-- Different databases, different purposes. How to choose it?
-- Which tools  for which approaches, how about their trade-offs?
-	- Caching strategy, Building search indexes 
-	- There's no single tool that can do it all
+- databases for storing data
+- caches for fast lookup of expensive operations
+- search indexes for keyword-based access
+- stream processing for handling events as soon as possible
+- batch processing for large volumes of data
 
-[[Operational Systems(OLTP, OLAP)]]
-**TL;DR**
-	Operational and Analytics system is used for different purposes
-	- Operational (OLTP)
-		- end user(CRUD)
-		- point query
-	- Analytics (OLAP)
-		- ETL process
-		- bulk query, aggregate, calculation
+## Core Trade-Offs
+No single tool fits every workload.
 
-[[Cloud Versus Self-Hosting]]
-**TL;DR**
-	Build vs buy depends on business priorities: in-house for competitive advantage/control (big investment), cloud/SaaS for non-core needs (less control, smaller investment), or middle ground like self-hosted on IaaS. Cloud offers fast scaling and cost-effective unpredictable loads but less control and vendor lock-in. Cloud-native architectures separate storage/compute for scalability, shifting operations from capacity planning to automated pay-as-you-go models.
+- different databases exist for different purposes
+- different architectures optimize different access patterns
+- the hard part is choosing the right trade-off for the job
 
-[[Distributed Versus Single-Node Systems]]
-TL;DR
-	Distributed systems (multiple networked machines) provide benefits like fault tolerance, scalability, and specialized hardware utilization but introduce complexity in failure handling, security, and performance. Single-machine solutions are often simpler and cheaper.
-
-[[Microservices and Serverless]]
-TL;DR
-	Microservices decompose applications into independent services with well-defined APIs, enabling flexible implementation changes but introducing complexity, testing challenges, and infrastructure requirements (addressed via orchestration like Kubernetes). Serverless (Function-as-a-Service) shifts infrastructure management to cloud providers with automatic resource scaling, though it entails cold-start latency and directly correlated scaling costs.
-
-[[Cloud Computing Versus Supercomputing]]
-TL;DR
--  HPC is built for tightly coupled computational jobs, with nodes close together, low-latency/high-bandwidth communication, and checkpointing for large batch workloads.
-  - Cloud is built for isolated, elastic services, with VM-based security boundaries, IP/Ethernet networking, and infrastructure spread across regions.
-  - The two solve different problems, so cloud is not a drop-in replacement for supercomputing.
-
-[[Data Systems, Law, and Society]]
-## TL;DR
-
-- One system rarely fits every workload; the right choice depends on the job.
-- OLTP and OLAP serve different access patterns and should usually be separated.
-- Distributed systems add scale, but they also add operational and coordination trade-offs.
+## Related Notes
+- [[operational-systems-oltp-olap|Operational Systems (OLTP, OLAP)]]
+  - Operational systems serve end-user CRUD and point queries, while analytical systems are better suited to ETL, bulk queries, and aggregation.
+- [[cloud-versus-self-hosting|Cloud Versus Self-Hosting]]
+  - Build-vs-buy depends on control, cost, and scaling needs, with cloud offering elasticity but less direct control.
+- [[distributed-versus-single-node-systems|Distributed Versus Single-Node Systems]]
+  - Distributed systems improve scale and resilience but add complexity; single-machine systems remain simpler when they are sufficient.
+- [[microservices-and-serverless|Microservices and Serverless]]
+  - Microservices split applications into independently deployable services, while serverless shifts infrastructure management to the cloud provider.
+- [[cloud-computing-versus-supercomputing|Cloud Computing Versus Supercomputing]]
+  - Cloud and HPC optimize for different kinds of workloads and communication patterns.
+- [[data-systems-law-and-society|Data Systems, Law, and Society]]
+  - System design also includes governance, legal, and societal constraints.

@@ -1,10 +1,11 @@
 ---
-title: OLTP, OLAP
+title: Operational Systems (OLTP, OLAP)
 tags:
   - database
 aliases:
-  - DDIA Notes
+  - OLTP, OLAP
 ---
+# Operational Systems (OLTP, OLAP)
 
 ***Operational Systems***
 - Served external users
@@ -70,3 +71,7 @@ They stop using OLTP systems for analytics purpose, and run analytics on separat
 - Transforming / processing
 - Can be replicate
 - eg. cache, dataset
+
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

@@ -1,9 +1,12 @@
 ---
+title: Why a Shared Database Is Not Effective in Microservices
 tags:
   - database
   - microservices
   - distributed-system
 ---
+# Why a Shared Database Is Not Effective in Microservices
+
 ### Independent Database
 - each service owns its data
 - independent
@@ -28,3 +31,6 @@ tags:
 
 **TL;DR**
 	Shared databases create tight coupling between microservices, making schema changes affect all services, requiring coordination for DB changes, and limiting scalability—undermining microservices' core benefits of independence and flexibility.
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

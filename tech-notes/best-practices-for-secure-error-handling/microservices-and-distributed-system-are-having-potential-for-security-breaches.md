@@ -1,11 +1,13 @@
 ---
+title: Microservices and Distributed Systems — Security Risks
 tags:
   - distributed-system
+  - go
 ---
-**Distributed Systems and Security Breaches**
+# Microservices and Distributed Systems — Security Risks
 
 Go services are normally run in distributed environments (APIs, cloud services, microservices) which leading to a significant potential for ==security breaches==
-See also: [[Distributed Versus Single-Node Systems]] for fundamental concepts of distributed systems vs single-node architectures.
+See also: [[distributed-versus-single-node-systems|Distributed Versus Single-Node Systems]] for fundamental concepts of distributed systems vs single-node architectures.
 - **Expanded attacking surfaces** (many services = many endpoints, some endpoint could be exposed)
 - **Network vulnerability** (across services communication) ^4f2481
 	- Man in the middle attacks

@@ -1,7 +1,11 @@
 ---
+title: Cloud Versus Self-Hosting
 tags:
-  - cloud-infrastructure
+  - system-design
+  - distributed-system
 ---
+# Cloud Versus Self-Hosting
+
 **Whether build it or buy it?** it's up to business priorities
 
 By business priorities
@@ -69,3 +73,7 @@ teams with both software development and operation responsibilities together
 - set up automation workflows (reduce repeatable process, manual jobs)
 - choose appropriate service for each task
 	- include integration between services
+
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

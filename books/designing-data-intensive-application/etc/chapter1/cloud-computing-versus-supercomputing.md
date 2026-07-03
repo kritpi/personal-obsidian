@@ -1,6 +1,10 @@
 ---
-    tags: cloud
+title: Cloud Computing Versus Supercomputing
+tags:
+  - distributed-system
 ---
+# Cloud Computing Versus Supercomputing
+
 ***High-performance computing (HPC)*** is an alternative way for large-scale computing systems and use different techniques from the cloud computing
 
 - **used for computationally** 
@@ -20,3 +24,7 @@
 - HPC nodes are close together
 	- cloud nodes can be distributed 
 		- across multiple geographic regions
+
+---
+
+*Part of [[CHAPTER1-Trade-offs-in-data-systems-architecture|Chapter 1 — Trade-offs in Data Systems Architecture]]*

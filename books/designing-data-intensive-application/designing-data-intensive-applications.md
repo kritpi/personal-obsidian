@@ -1,10 +1,14 @@
 ---
 title: Designing Data-Intensive Applications
 tags:
-  - data-systems
+  - database
+  - distributed-system
+  - microservices
 aliases:
   - DDIA Notes
 ---
+# Designing Data-Intensive Applications
+
 ### What this book is all about?
 
 How to design **data-intensive systems**
@@ -23,5 +27,5 @@ How to design **data-intensive systems**
 
 ### Chapter
 [[CHAPTER1-Trade-offs-in-data-systems-architecture]]
-[[CHAPTER2]]
+[[CHAPTER2-Defining-Nonfunctional-Requirements]]
 
